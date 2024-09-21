@@ -1,0 +1,34 @@
+/* static/styles.css */
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-control-file {
+    border: 2px dashed #ccc;
+    padding: 10px;
+}
+
+.form-control-file:hover {
+    border-color: #007bff;
+}
